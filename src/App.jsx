@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css' 
-
+ 
 function Navbar() {
   const [navActive, setNavActive] = useState(false)
   return (
