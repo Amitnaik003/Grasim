@@ -3,7 +3,7 @@ import './App.css'
 import '@fortawesome/fontawesome-free/css/all.min.css' 
  
 function Navbar() {
-  const [navActive, setNavActive] = useState(false)
+  const [navActive, setNavActive] = useState(false) 
   return (
     <nav className="navbar">
       <div className="logo">
