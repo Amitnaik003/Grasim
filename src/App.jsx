@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
  
 function Navbar() {
   const [navActive, setNavActive] = useState(false) 
-  return (
+  return ( 
     <nav className="navbar">
       <div className="logo">
         <a href="#"><img
